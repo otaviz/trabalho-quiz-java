@@ -1,6 +1,4 @@
-public class Questão {
-
-    import java.util.Scanner;
+ import java.util.Scanner;
 
     public class Questao {
         String pergunta = "";
@@ -55,4 +53,3 @@ public class Questão {
             System.out.println();
         }
     }
-}
