@@ -13,7 +13,7 @@
             c.escrevaCabecalho();
 
             System.out.println("////////////////////////////////////////////////////////");
-            System.out.println("    BEM-VINDO(A)cAO QUIZ CONHECIMENTOS GERAIS BÁSICOS!    ");
+            System.out.println("    BEM-VINDO(A) AO QUIZ CONHECIMENTOS GERAIS BÁSICOS!    ");
             System.out.println("////////////////////////////////////////////////////////");
 
             int totalAcertos = 0;
