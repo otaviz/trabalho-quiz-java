@@ -13,11 +13,10 @@
             c.escrevaCabecalho();
 
             System.out.println("////////////////////////////////////////////////////////");
-            System.out.println("    BEM-VINDO(A)cAO QUIZ CONHECIMENTOS GERAIS BÁSICOS!    ");
+            System.out.println("    BEM-VINDO(A) AO QUIZ CONHECIMENTOS GERAIS BÁSICOS!    ");
             System.out.println("////////////////////////////////////////////////////////");
 
             int totalAcertos = 0;
-
 
             Questao q1 = new Questao();
             q1.pergunta = "1) Qual é o maior animal terrestre?";
@@ -234,9 +233,12 @@
             }
 
 
+            float media = (totalAcertos / 15.0f)*10;
+
             System.out.println("==============================================================");
-            System.out.println("QUIZ FINALIZADO!");
+            System.out.println("QUIZ FINALIZADO, OBRIGADO POR PARTICIPAR!");
             System.out.println("Você acertou " + totalAcertos + " de 15 perguntas.");
+            System.out.printf("Sua média de acertos foi de: %.2f%n", media);
             System.out.println("==============================================================");
         }
     }
